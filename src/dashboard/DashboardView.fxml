@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="768.0" minWidth="1366.0" style="-fx-background-image: url(&quot;file:///E:/Real%20Java%20Workspace/Milkman%20Assistant/src/dashboard/Webp.net-resizeimage.png&quot;);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dashboard.DashboardViewController">
+   <children>
+      <ImageView fitHeight="188.0" fitWidth="915.0" layoutX="226.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292510068137696.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="87.0" fitWidth="696.0" layoutX="336.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292513190315314.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCR1" fitHeight="261.0" fitWidth="237.0" layoutX="14.0" layoutY="159.0" onMouseClicked="#openCR" onMouseEntered="#imgCRbig" onMouseExited="#imgCRsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_f-circle_128_308017.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCR2" fitHeight="204.0" fitWidth="197.0" layoutX="26.0" layoutY="168.0" onMouseClicked="#openCR" onMouseEntered="#imgCRbig" onMouseExited="#imgCRsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_002_95894.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRC1" fitHeight="261.0" fitWidth="237.0" layoutX="290.0" layoutY="159.0" onMouseClicked="#openRC" onMouseEntered="#imgRCbig" onMouseExited="#imgRCsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_f-circle_128_308017.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgGB1" fitHeight="261.0" fitWidth="237.0" layoutX="565.0" layoutY="159.0" onMouseClicked="#openGB" onMouseEntered="#imgGBbig" onMouseExited="#imgGBsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_f-circle_128_308017.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCF1" fitHeight="261.0" fitWidth="237.0" layoutX="839.0" layoutY="158.0" onMouseClicked="#openCF" onMouseEntered="#imgCFbig" onMouseExited="#imgCFsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_f-circle_128_308017.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBL1" fitHeight="261.0" fitWidth="237.0" layoutX="1115.0" layoutY="158.0" onMouseClicked="#openBL" onMouseEntered="#imgBLbig" onMouseExited="#imgBLsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_f-circle_128_308017.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRC2" fitHeight="158.0" fitWidth="161.0" layoutX="330.0" layoutY="198.0" onMouseClicked="#openRC" onMouseEntered="#imgRCbig" onMouseExited="#imgRCsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_preferences-contact-list_24249.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgGB2" fitHeight="204.0" fitWidth="197.0" layoutX="589.0" layoutY="176.0" onMouseClicked="#openGB" onMouseEntered="#imgGBbig" onMouseExited="#imgGBsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_Cash_register_73439.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgCF2" fitHeight="178.0" fitWidth="180.0" layoutX="869.0" layoutY="188.0" onMouseClicked="#openCF" onMouseEntered="#imgCFbig" onMouseExited="#imgCFsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_search_user_6184.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBL2" fitHeight="178.0" fitWidth="180.0" layoutX="1145.0" layoutY="189.0" onMouseClicked="#openBL" onMouseEntered="#imgBLbig" onMouseExited="#imgBLsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_Address_Book_Alt_blue_86952.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="200.0" layoutX="48.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292519069880755.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="48.0" fitWidth="212.0" layoutX="27.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292519190713164.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="200.0" layoutX="340.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292519264790698.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="200.0" layoutX="324.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292519069880755.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="261.0" layoutX="554.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292519493509394.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="200.0" layoutX="873.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292519069880755.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="200.0" layoutX="899.0" layoutY="425.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292519344307243.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="62.0" fitWidth="158.0" layoutX="1155.0" layoutY="394.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292519368201904.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgClose1" fitHeight="93.0" fitWidth="77.0" layoutX="1285.0" onMouseClicked="#Close" onMouseEntered="#imgClosebig" onMouseExited="#imgClosesmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_Perspective%20Button%20-%20Stop_32154.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgClose2" fitHeight="24.0" fitWidth="68.0" layoutX="1289.0" layoutY="17.0" mouseTransparent="true" onMouseClicked="#Close" onMouseEntered="#imgClosebig" onMouseExited="#imgClosesmall" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292520151554885.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgAD1" fitHeight="178.0" fitWidth="372.0" layoutX="508.0" layoutY="557.0" onMouseClicked="#openAD" onMouseEntered="#imgADbig" onMouseExited="#imgADsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@button-23969_960_720.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgAD2" fitHeight="80.0" fitWidth="178.0" layoutX="594.0" layoutY="593.0" onMouseClicked="#openAD" onMouseEntered="#imgADbig" onMouseExited="#imgADsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@cooltext292522976243874.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgAD3" fitHeight="93.0" fitWidth="322.0" layoutX="522.0" layoutY="638.0" onMouseClicked="#openAD" onMouseEntered="#imgADbig" onMouseExited="#imgADsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@cooltext292523014867425.gif" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBC1" fitHeight="261.0" fitWidth="237.0" layoutX="14.0" layoutY="486.0" onMouseClicked="#openBC" onMouseEntered="#imgBCbig" onMouseExited="#imgBCsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_f-circle_128_308017.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRR1" fitHeight="261.0" fitWidth="237.0" layoutX="1116.0" layoutY="484.0" onMouseClicked="#openRR" onMouseEntered="#imgRRbig" onMouseExited="#imgRRsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_f-circle_128_308017.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="77.0" layoutX="255.0" layoutY="569.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292630728748136.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="44.0" fitWidth="197.0" layoutX="255.0" layoutY="602.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292630668688026.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="45.0" fitWidth="170.0" layoutX="947.0" layoutY="599.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292630769166311.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="41.0" fitWidth="200.0" layoutX="948.0" layoutY="566.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292519264790698.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgBC2" fitHeight="204.0" fitWidth="197.0" layoutX="35.0" layoutY="501.0" onMouseClicked="#openBC" onMouseEntered="#imgBCbig" onMouseExited="#imgBCsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_Money_Bag_10999.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgRR2" fitHeight="178.0" fitWidth="185.0" layoutX="1145.0" layoutY="516.0" onMouseClicked="#openRR" onMouseEntered="#imgRRbig" onMouseExited="#imgRRsmall" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@if_Windows_View_Detail_52792.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

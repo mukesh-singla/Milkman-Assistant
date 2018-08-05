@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane minHeight="500.0" minWidth="500.0" style="-fx-background-image: url(&quot;file:///E:/Real%20Java%20Workspace/Milkman%20Assistant/src/login/Webp.net-resizeimage.png&quot;);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.LoginViewController">
+   <children>
+      <ImageView fitHeight="131.0" fitWidth="128.0" layoutX="26.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@if_Login_49249.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="257.0" layoutX="133.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@cooltext292614283661368.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="pass" layoutX="177.0" layoutY="214.0" prefHeight="36.0" prefWidth="207.0" />
+      <Label layoutX="177.0" layoutY="183.0" text="ADMIN KEY">
+         <font>
+            <Font name="Candara" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="btnProceed" fitHeight="63.0" fitWidth="200.0" layoutX="168.0" layoutY="318.0" onMouseClicked="#doProceed" onMouseEntered="#btnEnter" onMouseExited="#btnExit" preserveRatio="true" style="-fx-cursor: hand;">
+         <image>
+            <Image url="@RenderedImage.png" />
+         </image>
+      </ImageView>
+      <Hyperlink layoutX="399.0" layoutY="453.0" onAction="#doForgot" pickOnBounds="false" style="-fx-cursor: hand;" text="Forgot Key ?" textFill="#000001" underline="true">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Hyperlink>
+      <ImageView fx:id="imgErr" fitHeight="36.0" fitWidth="39.0" layoutX="350.0" layoutY="214.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@if_Warning_31226.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblErr" layoutX="176.0" layoutY="255.0" text="Access Denied..." visible="false">
+         <font>
+            <Font name="Bookman Old Style" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
